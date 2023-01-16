@@ -30,8 +30,9 @@ Using read replicas, we can elastically scale out beyond the capacity constraint
 We can use Amazon Route 53 weighted record sets to distribute requests across your read replicas. <br />
 Within a Route 53 hosted zone, we can create individual record sets for each DNS endpoint associated with the read replicas. <br />
 Then, we can assign them the same weight, and direct requests to the endpoint of the record set.
-<br />I'm demonstrating all these via AWSCLI method.
 <br />
+![Untitled Diagram drawio](https://user-images.githubusercontent.com/117455666/212580676-5725deb1-695d-4cbe-9826-c94db8453a3c.png)
+<br />I'm demonstrating all these via AWSCLI method.
 ***
 <br />
 <br />
